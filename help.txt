@@ -1,0 +1,14 @@
+Q1:
+
+Index.html has frontend part with a header an input box and a send button.
+index.css file has all the css used in index.html file.
+
+Q2.
+
+Source folder has two files.
+A) user.js which has  module which has database connection and two methods for adding message called addMsg() and 
+another getAllUsers().
+
+B) main.js file which has a express code which handles get and Post methods. 
+ i) get method calls getAllusers functions and it resnd a list as a response.
+ii) Post method takes a parameter and pass to addMsg() method and response that message added successfully.
